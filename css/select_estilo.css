@@ -1,0 +1,218 @@
+.hh{
+	background: rgb(246,248,249); /* Old browsers */
+background: -moz-linear-gradient(-45deg, rgba(246,248,249,1) 0%, rgba(229,235,238,1) 50%, rgba(215,222,227,1) 51%, rgba(245,247,249,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(246,248,249,1)), color-stop(50%,rgba(229,235,238,1)), color-stop(51%,rgba(215,222,227,1)), color-stop(100%,rgba(245,247,249,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(-45deg, rgba(246,248,249,1) 0%,rgba(229,235,238,1) 50%,rgba(215,222,227,1) 51%,rgba(245,247,249,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg, rgba(246,248,249,1) 0%,rgba(229,235,238,1) 50%,rgba(215,222,227,1) 51%,rgba(245,247,249,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg, rgba(246,248,249,1) 0%,rgba(229,235,238,1) 50%,rgba(215,222,227,1) 51%,rgba(245,247,249,1) 100%); /* IE10+ */
+background: linear-gradient(135deg, rgba(246,248,249,1) 0%,rgba(229,235,238,1) 50%,rgba(215,222,227,1) 51%,rgba(245,247,249,1) 100%); /* W3C */
+	width: 150px;
+	height: 30px;
+	font-family: Arial;
+	font-size: 13px;
+	text-align: center;
+	border: 1px solid black;
+	
+}	
+
+.cab{
+	background-color: black;
+	height: 50px;
+	padding-top: 1px;
+	padding-left: 50px;
+	padding-bottom: 1px;
+	margin: 0px;
+}
+
+.med{
+	background: rgb(254,204,177); /* Old browsers */
+background: -moz-linear-gradient(-45deg, rgba(254,204,177,1) 0%, rgba(241,116,50,1) 50%, rgba(234,85,7,1) 51%, rgba(251,149,94,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(254,204,177,1)), color-stop(50%,rgba(241,116,50,1)), color-stop(51%,rgba(234,85,7,1)), color-stop(100%,rgba(251,149,94,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(-45deg, rgba(254,204,177,1) 0%,rgba(241,116,50,1) 50%,rgba(234,85,7,1) 51%,rgba(251,149,94,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg, rgba(254,204,177,1) 0%,rgba(241,116,50,1) 50%,rgba(234,85,7,1) 51%,rgba(251,149,94,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg, rgba(254,204,177,1) 0%,rgba(241,116,50,1) 50%,rgba(234,85,7,1) 51%,rgba(251,149,94,1) 100%); /* IE10+ */
+background: linear-gradient(135deg, rgba(254,204,177,1) 0%,rgba(241,116,50,1) 50%,rgba(234,85,7,1) 51%,rgba(251,149,94,1) 100%); /* W3C */
+padding-top: 20px;
+padding-bottom: 20px;
+
+}
+
+.pie{
+	background-color: black;
+	height: 60px;
+}
+
+.tablita{
+}
+
+.czc{
+	background-color: rgb(143, 158, 206);
+	font-family: Arial;
+	font-size: 14px;
+	height: 30px;
+}
+
+.cab>h2{
+	color: white;
+	font-family: Arial;
+}
+.besi{
+	background: rgb(246,248,249); /* Old browsers */
+background: -moz-linear-gradient(-45deg, rgba(246,248,249,1) 0%, rgba(229,235,238,1) 50%, rgba(215,222,227,1) 51%, rgba(245,247,249,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(246,248,249,1)), color-stop(50%,rgba(229,235,238,1)), color-stop(51%,rgba(215,222,227,1)), color-stop(100%,rgba(245,247,249,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(-45deg, rgba(246,248,249,1) 0%,rgba(229,235,238,1) 50%,rgba(215,222,227,1) 51%,rgba(245,247,249,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg, rgba(246,248,249,1) 0%,rgba(229,235,238,1) 50%,rgba(215,222,227,1) 51%,rgba(245,247,249,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg, rgba(246,248,249,1) 0%,rgba(229,235,238,1) 50%,rgba(215,222,227,1) 51%,rgba(245,247,249,1) 100%); /* IE10+ */
+background: linear-gradient(135deg, rgba(246,248,249,1) 0%,rgba(229,235,238,1) 50%,rgba(215,222,227,1) 51%,rgba(245,247,249,1) 100%); /* W3C */
+height: 30px;
+border:1px solid black;
+font-family: Arial;
+font-size: 13px;
+width: 20px;
+text-align: center;
+
+}
+
+/* botones de busqueda */
+
+.bn{
+	padding: 10px;
+}
+
+.bn-child{
+	width: 70px;
+	height: 70px;
+	background-color: rgb(209, 209, 0);
+	display: inline-block;
+	box-shadow: 2px 2px 2px #000;
+	-webkit-transition: all 0.5s ease-in-out;
+}
+
+.bn img{
+	width: 40px;
+	height: 40px;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 7px;
+	margin-bottom: 0;
+}
+
+.bn h4{
+	font-family: Arial;
+	color: rgb(190, 178, 178);
+	display: inline-block;
+	height: 20px;
+	vertical-align: center;
+	margin-right: 50px;
+	text-shadow: 2px 2px 2px #000;
+	margin-left: 100px;
+
+}
+
+.bn-child p{
+	margin: 0;
+	text-align: center;
+	font-family: Arial;
+	font-size: 12px;
+}
+
+.bn-child:hover{
+	-webkit-transform: scale(0.95,0.95);
+	background-color: rgb(145, 145, 110)
+}
+
+#muestra1{
+	background-color:rgb(83, 173, 105);
+	box-shadow: 3px 3px 3px #000;
+	width: 800px;
+	height: 300px;
+	margin-bottom: 20px;
+	margin-left: 85px;
+	display: none;
+}
+
+#muestra2{
+	background-color:rgb(83, 173, 105);
+	box-shadow: 3px 3px 3px #000;
+	width: 800px;
+	height: 300px;
+	margin-bottom: 20px;
+	margin-left: 85px;
+	display: none;
+}
+
+#muestra3{
+	background-color:rgb(83, 173, 105);
+	box-shadow: 3px 3px 3px #000;
+	width: 800px;
+	height: 300px;
+	margin-bottom: 20px;
+	margin-left: 85px;
+	display: none;
+}
+
+#muestra4{
+	background-color:rgb(83, 173, 105);
+	box-shadow: 3px 3px 3px #000;
+	width: 800px;
+	height: 300px;
+	margin-bottom: 20px;
+	margin-left: 85px;
+	display: none;
+}
+
+
+/*---------------------*/
+
+.bn{
+	padding: 10px;
+}
+
+.bn-ch{
+	width: 70px;
+	height: 70px;
+	background-color: rgb(209, 209, 0);
+	display: inline-block;
+	box-shadow: 2px 2px 2px #000;
+	-webkit-transition: all 0.5s ease-in-out;
+}
+
+.bn img{
+	width: 40px;
+	height: 40px;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 7px;
+	margin-bottom: 0;
+}
+
+.bn h4{
+	font-family: Arial;
+	color: rgb(190, 178, 178);
+	display: inline-block;
+	height: 20px;
+	vertical-align: center;
+	margin-right: 50px;
+	text-shadow: 2px 2px 2px #000;
+	margin-left: 100px;
+
+}
+
+.bn-ch p{
+	margin: 0;
+	text-align: center;
+	font-family: Arial;
+	font-size: 12px;
+}
+
+.bn-ch:hover{
+	-webkit-transform: scale(0.95,0.95);
+	background-color: rgb(145, 145, 110)
+}
+
+.tu{
+	color: rgb(86, 90, 54);
+	font-family: Arial;
+	text-shadow: 3px 3px 3px #fff;
+	margin-bottom: 0px;
+}

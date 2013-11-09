@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link rel="stylesheet" type="text/css" href="css/hoja_de_estilo.css">
+</head>
+<body>
+	<div class="sech">
+		<h2>Registrar Nuevo AutoMovil</h2>
+	</div>
+
+	<div class="sec">
+		<div class="cars">
+			<img src="img/cars-icon.png" class="imgcars">
+		</div>
+		<div class="box-form">
+			<div class="cc"><img src="img/carrr.png" ><p>Ingresar Datos Obligatorios para el Registro.</p></div>
+			<form action="conexion.php" method="POST">
+				<div class="group">
+					<div class="box-child">
+						<div class="txt">(*) Modelo: </div>
+						<div class="entrada"><input type="text" name ="modelo" class="finput" placeholder="Modelo"></div>
+					</div>
+					<div class="box-child">
+						<div class="txt">(*) Marca: </div>
+						<div class="entrada"><input type="text" name ="marca" class="finput" placeholder="Marca"></div>
+					</div>
+				</div>
+				<div class="group">
+					<div class="box-child">
+						<div class="txt">(*) Año de Fabricación: </div>
+						<div class="entrada"><input type="text" name ="fabricacion" class="finput" placeholder="año/mes/dia"></div>
+					</div>
+					<div class="box-child">
+						<div class="txt">(*) Proveedor: </div>
+						<div class="entrada"><input type="text" name ="proveedor" class="finput" placeholder="Proveedor"></div>
+					</div>
+				</div>
+				<div class="group">
+					<div class="box-child">
+						<div class="txt">(*) N° Serie: </div>
+						<div class="entrada"><input type="text" name ="serie" class="finput" placeholder="Serie"></div>
+					</div>
+					<div class="box-child">
+						<div class="txt">(*) Color: </div>
+						<div class="entrada">
+							<select name="color" class="selecc">
+								<option style="background-color:white;" value="Blanco">Blanco</option>
+								<option style="background-color:yellow" value="Amarillo">Amarillo</option>
+								<option style="background-color:blue" value="Azul">Azul</option>
+								<option style="background-color:black;color:white" value="Negro">Negro</option>
+								<option style="background-color:brown" value="Marron">Marron</option>
+								<option style="background-color:red;color:white" value="Rojo">Rojo</option>
+							</select>
+					</div>
+				</div>
+				<div class="group">
+					<div class="box-child">
+						<div class="txt">(*) País de Fabricación: </div>
+						<div class="entrada"><input type="text" name ="pais" class="finput" placeholder="Pais"></div>
+					</div>
+					<div class="box-child">
+						<div class="txt"></div>
+						<div class="entrada"></div>
+					</div>
+				</div>
+				<div class="box-child">
+					<div class="txt"> </div>
+					<div class="entrada"><input type="submit" value ="Enviar" class="das"></div>
+				</div>
+			</form>
+
+		</div>
+	</div>	
+	<div class="subheader">
+		<a href="aplicacion.html">
+			<div class="uno">
+				<img src="img/home.png" class="imgn">
+				<p>Principal</p>
+			</div>
+		</a>
+		<a href="medina.html">
+			<div class="uno">
+				<img src="img/carr.png" class="imgn">
+				<p>Nuevo</p>
+			</div>
+		</a>
+		<div class="uno">
+			<img src="img/llanta.png" class="imgn">
+			<p>Nuevo</p>
+		</div>
+		<div class="uno">
+			<img src="img/informe.png" class="imgn">
+			<p>Nuevo</p>
+		</div>
+		<a href="conexion.php">
+			<div class="uno">
+				<img src="img/SaltarViaje.png" class="imgn">
+				<p>Stock</p>
+			</div>
+		</a>
+		
+</body>
+</html>
